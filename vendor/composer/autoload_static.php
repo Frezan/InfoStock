@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInite63db751b8111b566c2fef00ee4306a0
+class ComposerStaticInit8786bd2e0b23eb257f49bf664e95a9c0
 {
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
@@ -136,8 +136,8 @@ class ComposerStaticInite63db751b8111b566c2fef00ee4306a0
         'phpDocumentor\\Reflection\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
-            1 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
-            2 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
+            1 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
+            2 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
         ),
         'Webmozart\\Assert\\' => 
         array (
@@ -437,8 +437,8 @@ class ComposerStaticInite63db751b8111b566c2fef00ee4306a0
         ),
         'Doctrine\\Common\\' => 
         array (
-            0 => __DIR__ . '/..' . '/doctrine/common/lib/Doctrine/Common',
-            1 => __DIR__ . '/..' . '/doctrine/event-manager/lib/Doctrine/Common',
+            0 => __DIR__ . '/..' . '/doctrine/event-manager/lib/Doctrine/Common',
+            1 => __DIR__ . '/..' . '/doctrine/common/lib/Doctrine/Common',
         ),
         'Doctrine\\Bundle\\MigrationsBundle\\' => 
         array (
@@ -969,19 +969,7 @@ class ComposerStaticInite63db751b8111b566c2fef00ee4306a0
         'ApiPlatform\\Core\\Validator\\Exception\\ValidationException' => __DIR__ . '/..' . '/api-platform/core/src/Validator/Exception/ValidationException.php',
         'ApiPlatform\\Core\\Validator\\ValidatorInterface' => __DIR__ . '/..' . '/api-platform/core/src/Validator/ValidatorInterface.php',
         'App\\DataFixtures\\AppFixtures' => __DIR__ . '/../..' . '/src/DataFixtures/AppFixtures.php',
-        'App\\Entity\\Cart' => __DIR__ . '/../..' . '/src/Entity/Cart.php',
-        'App\\Entity\\Category' => __DIR__ . '/../..' . '/src/Entity/Category.php',
-        'App\\Entity\\Command' => __DIR__ . '/../..' . '/src/Entity/Command.php',
-        'App\\Entity\\Product' => __DIR__ . '/../..' . '/src/Entity/Product.php',
-        'App\\Entity\\SubCategory' => __DIR__ . '/../..' . '/src/Entity/SubCategory.php',
-        'App\\Entity\\User' => __DIR__ . '/../..' . '/src/Entity/User.php',
         'App\\Kernel' => __DIR__ . '/../..' . '/src/Kernel.php',
-        'App\\Repository\\CartRepository' => __DIR__ . '/../..' . '/src/Repository/CartRepository.php',
-        'App\\Repository\\CategoryRepository' => __DIR__ . '/../..' . '/src/Repository/CategoryRepository.php',
-        'App\\Repository\\CommandRepository' => __DIR__ . '/../..' . '/src/Repository/CommandRepository.php',
-        'App\\Repository\\ProductRepository' => __DIR__ . '/../..' . '/src/Repository/ProductRepository.php',
-        'App\\Repository\\SubCategoryRepository' => __DIR__ . '/../..' . '/src/Repository/SubCategoryRepository.php',
-        'App\\Repository\\UserRepository' => __DIR__ . '/../..' . '/src/Repository/UserRepository.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'Doctrine\\Bundle\\DoctrineBundle\\Attribute\\AsEntityListener' => __DIR__ . '/..' . '/doctrine/doctrine-bundle/Attribute/AsEntityListener.php',
         'Doctrine\\Bundle\\DoctrineBundle\\Attribute\\AsMiddleware' => __DIR__ . '/..' . '/doctrine/doctrine-bundle/Attribute/AsMiddleware.php',
@@ -5396,9 +5384,9 @@ class ComposerStaticInite63db751b8111b566c2fef00ee4306a0
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInite63db751b8111b566c2fef00ee4306a0::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInite63db751b8111b566c2fef00ee4306a0::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInite63db751b8111b566c2fef00ee4306a0::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit8786bd2e0b23eb257f49bf664e95a9c0::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit8786bd2e0b23eb257f49bf664e95a9c0::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit8786bd2e0b23eb257f49bf664e95a9c0::$classMap;
 
         }, null, ClassLoader::class);
     }
