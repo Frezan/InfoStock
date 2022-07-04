@@ -31,11 +31,6 @@
         "symfony/validator": "6.0.*",
         "symfony/yaml": "6.0.*"
     },
-    "require-dev": {
-        "doctrine/doctrine-fixtures-bundle": "^3.4",
-        "fakerphp/faker": "^1.19",
-        "symfony/maker-bundle": "^1.43"
-    },
     "config": {
         "allow-plugins": {
             "composer/package-versions-deprecated": true,
