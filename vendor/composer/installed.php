@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'f7dc8d79284c1902e15ba8ec324dbe5406456d1a',
+        'reference' => '096b8f577878435e77e93011962eac9ca7cadc8a',
         'name' => '__root__',
         'dev' => true,
     ),
@@ -16,7 +16,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'f7dc8d79284c1902e15ba8ec324dbe5406456d1a',
+            'reference' => '096b8f577878435e77e93011962eac9ca7cadc8a',
             'dev_requirement' => false,
         ),
         'api-platform/core' => array(
@@ -343,8 +343,8 @@
         'psr/link-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.0|2.0',
-                1 => '1.0',
+                0 => '1.0',
+                1 => '1.0|2.0',
             ),
         ),
         'psr/log' => array(
