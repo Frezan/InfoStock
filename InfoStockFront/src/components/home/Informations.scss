@@ -1,0 +1,23 @@
+.row{
+    margin-right: 0px;
+}
+.informationDiv{
+    height: 150px;
+    display: flex;
+   
+    align-items: center;
+    justify-content: center;
+    padding-left: 45px;
+    padding-top: 45px;
+    background-color: #EAF2F8;
+}
+.informationRow{
+    display: flex;
+    align-self: center;
+    justify-items: center;
+}
+
+.informationImg{
+    width: 45px;
+    height: 45px;
+}
